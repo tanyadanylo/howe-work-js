@@ -20,4 +20,4 @@ Array.prototype.myFilter = function (callback) {
 }
 
 let numbers = [1, 2, 3, 4, 5];
-console.log(numbers.myFilter(number => number % 2 === 0));;
+console.log(numbers.myFilter(number => number % 2 === 0));
