@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>10_3</title>
+  <style>
+    .users-box{
+      display: flex;
+      flex-direction: column;
+      width: 400px;
+    }
+    .users-box input{
+      margin-bottom: 10px;
+      height: 40px;
+    }
+    .users-box button{
+      height: 30px;
+      background-color: green;
+      border: none;
+      cursor: pointer;
+      border-radius: 30px;
+      color: white;
+      margin-bottom: 25px;
+    }
+  </style>
+</head>
+<body>
+<div class="users-box">
+  <label for="name">Name:</label>
+  <input type="text" id="name" placeholder="Enter your name">
+
+  <label for="surname">Surname:</label>
+  <input type="text" id="surname" placeholder="Enter your surname">
+
+  <label for="age">Age:</label>
+  <input type="number" id="age" placeholder="Enter your age">
+
+  <button id="confirm-button">Submit</button>
+</div>
+<script src="lesson10_3.js"></script>
+</body>
+</html>
